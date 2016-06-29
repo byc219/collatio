@@ -107,7 +107,7 @@ function d3Time() {
     if (passedData)
       resolved = passedData.reduce((curr, val) => curr ? val.hasOwnProperty('set') : false, true);
     if (!resolved)
-      return document.createElement('div'); // = passedData.reduce((curr,val) => [].concat(curr,val.data), []);
+      return null; // = passedData.reduce((curr,val) => [].concat(curr,val.data), []);
     let data = [];
     let dataObject = {};
 
