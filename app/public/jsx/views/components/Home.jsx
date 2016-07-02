@@ -25,7 +25,7 @@ class Home extends React.Component {
         <Col m={4} s={12}>
           <Card header={<CardTitle reveal image={"https://avatars2.githubusercontent.com/u/2400070?v=3&s=460"} waves='light'/>}
                 title="Ben Chen   (+Oliver)"
-                reveal={<div>Product Owner<br/>Ben Chen graduated from NYU with a computer scienc</div>}>
+                reveal={<div>Product Owner, Engineer<br/>Ben Chen graduated from NYU with a computer science degree with a mathematics and web development specialization. From Ben: "I really enjoyed working on Basselope. It shows really interesting trending content in a new light and i find myself actively browsing random terms and learning more about it. Recent events are most interesting to visualize as apposed to reading a few, usually bias, news sources. </div>}>
             <p><a href="https://github.com/byc219">Github</a></p>
           </Card>
         </Col>
@@ -39,7 +39,7 @@ class Home extends React.Component {
         <Col m={4} s={12}>
           <Card header={<CardTitle reveal image={"https://avatars1.githubusercontent.com/u/15223543?v=3&s=400"} waves='light'/>}
                 title="Lukas Welinder"
-                reveal={<div>Scrum Master<br/> Lukas is a human with stuff about him</div>}>
+                reveal={<div>Scrum Master, Engineer<br/> Lukas is a human with stuff about him</div>}>
             <p><a href="https://github.com/lukaswelinder">Github</a></p>
           </Card>
         </Col>
